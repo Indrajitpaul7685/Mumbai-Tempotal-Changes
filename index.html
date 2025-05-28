@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spatio Temporal Urban Expansion</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f8f9fa;
+            margin: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #007BFF;
+            margin-bottom: 20px;
+        }
+        .section {
+            margin-bottom: 40px;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        table {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        th, td {
+            text-align: center;
+            padding: 10px;
+        }
+        th {
+            background-color: #007BFF;
+            color: white;
+        }
+        .image-section {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .image-section img {
+            max-width: 50%;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        .caption {
+            text-align: center;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 0.9em;
+            color: #6c757d;
+        }
+        .further-analysis {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .table-title {
+            font-size: 0.9em; /* Smaller font size for table titles */
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Spatio Temporal Urban Expansion</h1>
+
+
+<!-- Year-wise Urban Area Dynamics Table -->
+<div class="section">
+    
+    <div class="table-title">Table 1: Year-wise Urban Area Dynamics</div>
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Year</th>
+                <th>Urban Area (sq km)</th>
+                <th>Increased</th>
+                <th>Growth Rate</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1990</td>
+                <td>184.921695</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>2000</td>
+                <td>633.887727</td>
+                <td>448.966032</td>
+                <td>24.27871062</td>
+            </tr>
+            <tr>
+                <td>2010</td>
+                <td>1293.362861</td>
+                <td>659.475134</td>
+                <td>10.40365834</td>
+            </tr>
+            <tr>
+                <td>2020</td>
+                <td>1451.603007</td>
+                <td>158.240146</td>
+                <td>1.223478351</td>
+            </tr>
+            
+        </tbody>
+    </table>
+</div>
+
+
+
+<!-- Temporal Nature of Urban Metrics Table -->
+<div class="section">
+    <h2>Temporal Nature of Urban Metrics</h2>
+    <div class="table-title">Table 2: Temporal Nature of Urban Metrics</div>
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Temporal Span</th>
+                <th>Area</th>
+                <th>Growth Rate</th>
+                <th>Increased</th>
+                <th>UEII</th>
+                <th>AUER</th>
+               
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1990 - 2000</td>
+                <td>184.921695</td>
+                <td>24.27871062</td>
+                <td>448.966032</td>
+                <td>9.789278</td>
+                <td>324.906652</td>
+            </tr>
+            <tr>
+                <td>2000 - 2010</td>
+                <td>633.887727</td>
+                <td>10.40365834</td>
+                <td>659.475134</td>
+                <td>5.050737</td>
+                <td>74.3488</td>
+            </tr>
+            <tr>
+                <td>2010 - 2020</td>
+                <td>1293.362861</td>
+                <td>1.223478351</td>
+                <td>158.240146</td>
+                <td>10.364665</td>
+                <td>105.055499</td>
+            </tr>
+            <tr>
+                <td>1990 - 2020</td>
+                <td>1451.603007</td>
+                <td>68.49825338</td>
+                <td>1266.681312</td>
+                <td>25.20468</td>
+                <td>532.063395</td>
+            </tr>
+            
+        </tbody>
+    </table>
+</div>
+
+<!-- Combined Image and Further Analysis Section -->
+<div class="section">
+    <h2>Analysis Overview</h2>
+    <div class="row">
+        <div class="col-md-6 image-section">
+            <h3>Urban Growth Visualization</h3>
+            <img src="urban change mumbai.gif" alt="Urban Growth Visualization">
+            <div class="caption">
+                Figure 1: Urban Growth Patterns Over Time
+            </div>
+        </div>
+        <div class="col-md-6 further-analysis">
+            <h3>Further Analysis</h3>
+            <p>Mumbai's urban growth visualization from 1990 to 2020 reveals a unique coastal-linear expansion pattern shaped by severe geographical constraints. The city initially grew northward along suburban rail corridors (1990-2000), then exploded vertically through redevelopment in the island city (2000-2010) while sprawling extensively into Thane and Navi Mumbai. By 2020, the visualization shows: extreme densification in western suburbs from Bandra to Borivali; massive eastward leapfrog development in Navi Mumbai's nodes; constrained southern growth due to the CBD and sea; and emerging northern extensions beyond Vasai-Virar, creating a characteristic "backbone-spine" morphology along the Western Railway line with radial tentacles of highway growth, highlighting the urgent need for transit-oriented development to manage this hyper-dense, geographically-challenged megacity.
+
+</p>
+        </div>
+    </div>
+</div>
+
+<!-- New Analysis Section -->
+<div class="section">
+    <h2>Detailed Analysis</h2>
+    <div class="row">
+        <div class="col-md-6">
+            <h3>New Insights</h3>
+            <p>
+This image displays four maps illustrating the urban expansion of Mumbai over different temporal periods: 1990-2000, 2000-2010, 2010-2020, and an aggregate of 1990-2020. Each map employs a consistent legend to categorize urban change: "Edge Expansion" (red) representing outward growth, "Infilling" (dark blue) indicating development within existing urban areas, "Outlying" (light blue) showing new, disconnected urban patches, and "Existing Urban Patch" (grey) for stable developed areas. A very significant trend observed across all periods, and most strikingly in the 1990-2020 aggregate map, is the overwhelming prevalence of "Edge Expansion" (red). This indicates that Mumbai's urban growth has been dominated by a rapid and extensive outward spread from its existing urban core, pushing into surrounding areas. While "Infilling" and "Outlying" developments are present, they are comparatively minor to the widespread red areas, underscoring the dominance of outward expansion in Mumbai's urban dynamics over these three decades.</p>
+        </div>
+        <div class="col-md-6 image-section">
+            <img src="LEI_MUMBAI.jpg" alt="New Insights Visualization">
+            <div class="caption">
+                Figure 2: New Insights on Urban Dynamics
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- Additional Metrics Table -->
+<div class="section">
+    
+    <div class="table-title">Table 3: Temporal and areal dynamics of typical urban expansion</div>
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Year</th>
+                <th>Outlying</th>
+                <th>Edge - Expansion</th>
+                <th>Infilling</th>
+              
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1990 - 2000</td>
+                <td>1.7325</td>
+                <td>0.0018</td>
+                <td>0.0009</td>
+                
+            </tr>
+            <tr>
+                <td>2000 - 2010</td>
+                <td>0.0171</td>
+                <td>0.0009</td>
+                <td>0.0027</td>
+            </tr>
+            <tr>
+                <td>2010 - 2020</td>
+                <td>0.0009</td>
+                <td>0.0009</td>
+                <td>4.963802</td>
+
+            </tr>
+            <tr>
+                <td>1990 - 2020</td>
+                <td>0.0009</td>
+                <td>0.0009</td>
+                <td>1.692</td>
+            </tr>
+            
+        </tbody>
+    </table>
+</div>
+
+
+<!-- Footer -->
+<footer>
+    <p>© 2024-2025 All Rights reserved</p>
+</footer>
+
+</body>
+</html>
